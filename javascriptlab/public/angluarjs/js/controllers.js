@@ -26,3 +26,5 @@ slideControl.controller('slideControl3', ['$scope',
  	     $scope.pageClass="listmain";
  	 }
 ]);
+    }
+]);
