@@ -7,6 +7,14 @@
   },
   "dependencies": {
     "express": "3.2.6",
-    "jade": "*"
+    "jade": "*",
+    "bootstrap": "~3.3.4"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-typescript": "^0.6.1",
+    "typescript": "^1.4.1"
   }
 }
