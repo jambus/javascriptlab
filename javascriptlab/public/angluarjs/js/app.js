@@ -15,6 +15,9 @@ bookStoreApp.config(function($routeProvider) {
     }).when('/s3', {
         templateUrl: 'tpls/s3.html',
         controller: 'slideControl3'
+    }).when('/demo', {
+        templateUrl: 'tpls/demo.html',
+        controller: 'indexControl'
     }).otherwise({
         redirectTo: '/hello'
     })
